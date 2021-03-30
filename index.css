@@ -1,21 +1,44 @@
-body {
-    background-color: #1f1f1f;
+*{
     font-family: 'Ubuntu', sans-serif;
+    font-size: medium;
     color: white;
 }
 
-#Education, #Projects {
-    padding-top: 4%;
+body {
 }
 
-#Profile {
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 2%;
-    
+.Profile {
+    background-color: #1f1f1f;
+    overflow: auto;
+    /* border:1px solid black;    */
+    /* background-color: cyan; */
+
+}
+.Education {
+    background-color: #1f1f1f;
+    overflow: auto;
+    /* border:1px solid black;    */
+    /* background-color: teal; */
+}
+.Projects {
+    background-color: #1f1f1f;
+    overflow: auto;
+    /* border:1px solid black;    */
+    /* background-color: indigo; */
 }
 
 .profile-pic {
-    width: 15%;
-    height: 30%;
+    width: 20%;
+    height: auto;
+    margin: 2%;
+}
+
+.Content {
+    height: auto;
+    width: auto;
+    text-align: justify;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 1%;
+    /* background-color: red; */
 }
