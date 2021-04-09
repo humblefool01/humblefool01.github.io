@@ -4,33 +4,39 @@
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+
 }
 
 .Profile {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid black;    */
+    border:1px solid white;
     /* background-color: cyan; */
-
 }
 .Education {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid black;    */
+    border:1px solid white;   
     /* background-color: teal; */
 }
 .Projects {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid black;    */
+    border:1px solid white;   
     /* background-color: indigo; */
 }
 
 .profile-pic {
     width: 20%;
     height: auto;
-    margin: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .Content {
@@ -39,6 +45,18 @@ body {
     text-align: justify;
     margin-right: 25%;
     margin-left: 25%;
+    margin-top: 5%;
     padding: 1%;
     /* background-color: red; */
 }
+
+.social-icons {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 25%;
+    margin-left: 25%;
+    /* border:1px solid white;  */
+}
+
