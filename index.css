@@ -12,6 +12,11 @@ body {
 
 }
 
+.Skills {    
+    background-color: #1f1f1f;
+    overflow: auto;
+}
+
 .Profile {
     background-color: #1f1f1f;
     overflow: auto;
