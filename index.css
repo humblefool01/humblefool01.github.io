@@ -9,7 +9,7 @@ html {
 }
 
 body {
-
+    background-color: #1f1f1f;
 }
 
 .Skills {    
@@ -20,37 +20,25 @@ body {
 .Profile {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid white; */
-    /* background-color: cyan; */
+    padding-bottom: 5%;
 }
 .Education {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid white;    */
 }
 .Projects {
     background-color: #1f1f1f;
     overflow: auto;
-    /* border:1px solid white; */
 }
 
 .profile-pic {
-    /* width: 20%; */
     height: auto;
-    /* margin-left: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%; */
 }
 
 .Content {
     height: auto;
     width: auto;
     text-align: justify;
-    /* margin-right: 25%;
-    margin-left: 25%; */
-    /* margin-top: 5%; */
-    /* padding: 1%; */
-    /* background-color: red; */
 }
 
 .social-icons {
@@ -58,7 +46,4 @@ body {
     height: auto;
     display: flex;
     justify-content: space-evenly;
-    /* margin-right: 25%;
-    margin-left: 25%; */
-    /* border:1px solid white;  */
 }
